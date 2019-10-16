@@ -33,7 +33,7 @@
 				invokeTestRunMonitor="true"
 				>
 		
-			<fileset id="testcases" dir="../tests/October Release"><include name="TS-1.testcase"/></fileset>
+			<fileset id="testcases" dir="../tests"><include name="TestCase1.testcase"/></fileset>
           
 
 			<emailProperties sendEmail="true" primaryRecipients="Dl-bizapp-qa-automation@splunk.com" ccRecipients="" bccRecipients="" emailSubject="Provar test run report" attachExecutionReport="true" attachZip="false"/>
